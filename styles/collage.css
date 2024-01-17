@@ -21,14 +21,15 @@
  nav li{
     margin: 30px;
  }
-
-.image{width: 1170px;
+.a{    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) , url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1170px;
     height: 500px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) , url('../Images/Group\ 13\ \(1\)\ \(1\).png');
-max-width: 970px;
-height: 270px;
+}
+.image{
+
+
 text-align: center;
-margin: 0 auto;
+
 padding: 106px;
 border-radius: 16px;
 }
@@ -115,3 +116,99 @@ bottom-: 100px;}
     text-align: center;}
 .save h1{font-size: 32px;
     text-align: center;}
+
+    .go{width: 174px;
+        height: 52px;
+        border-radius: 8px;
+background: #FFF;}
+.Find{width: 174px;
+    height: 52px;
+    border-radius: 8px;
+background: #FF5400;color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+align-items: center;}
+.in{display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);}
+
+    .why{width: 1440px;
+        height: 6940px;
+        text-align: center;
+    }
+
+    .hotels{
+        display: flex;
+        justify-content:flex-start;
+        gap: 24px;
+    }
+    .A , .B{width: 573px;
+        height: 284px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+    }
+ .Best{width: 573px;
+    height: 284px;
+    justify-content: center;
+    margin-left: 200px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);}
+
+    .B{border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05); }
+  
+    
+
+
+
+
+
+
+
+
+    /* responsive */
+    @media screen and (max-width:590px){
+        .a{width: 335px;
+            height: 500px;
+            }
+            .image{margin-top: 10px;}
+            .b{color: #FFF;
+                font-family: Mulish;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+            
+      }
+                .c{color: #FFF;
+                    text-align: center;
+                    font-family: Mulish;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 21px; /* 150% */}
+                    .in{ display: flex;
+                        width: 287px;
+                        padding: 16px;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 16px;}
+        
+    }
+
+
+
+
+
+
