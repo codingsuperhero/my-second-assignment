@@ -102,16 +102,8 @@ padding: 100px 100px ;
 .l{ border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
 }
-.save{width: 324px;
-    height: 120px;
-    transform: rotate(-19.628deg);
-    border-radius: 16px;
-    color: #FFF;
-    background: #FF5400;
-padding: 10px;
-margin: 0;
-position: relative;
-bottom-: 100px;}
+
+
 .save h2{font-size: 24px;
     text-align: center;}
 .save h1{font-size: 32px;
@@ -160,13 +152,20 @@ align-items: center;}
     height: 284px;
     justify-content: center;
     margin-left: 200px;
-    gap: 10px;
+    margin-top: 30px ;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);}
 
     .B{border: 1px solid rgba(41, 206, 246, 0.20);
         background: rgba(41, 206, 246, 0.05); }
+
+        footer{text-align: center;
+            width: 1440px;
+            height: 502px;
+            padding-top: 100px;
+            gap: 50px;
+            background: rgba(19, 19, 24, 0.05);}
   
     
 
